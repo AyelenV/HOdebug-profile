@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
   scanf("%f",&a);
   scanf("%f",&b);
 
-  tmp = sqrtf(a / b);
+  tmp = sqrt(a / b);
   
   if(tmp > 2.)
     {
